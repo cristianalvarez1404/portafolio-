@@ -1,6 +1,9 @@
 const Home = () => {
   return (
-    <div className="w-[60%] h-screen m-auto flex flex-col items-center justify-center text-center">
+    <div
+      id="home"
+      className="w-[60%] h-screen m-auto flex flex-col items-center justify-center text-center"
+    >
       <h1 className="font-bold text-5xl mb-5">
         Hi,I'm <span className="text-emerald-500 ">Cristian Alvarez</span>
       </h1>

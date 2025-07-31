@@ -121,7 +121,7 @@ const Skills = () => {
   };
 
   return (
-    <div>
+    <div id="skills">
       <div className="h-screen">
         <h1 className="w-1/2 m-auto border-t-2 border-gray-200 p-4 text-center mb-5 text-6xl ">
           My skills

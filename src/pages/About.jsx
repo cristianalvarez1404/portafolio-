@@ -5,7 +5,7 @@ import { FaFileCode } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="">
+    <div className="" id="about">
       <h1 className="w-1/2 m-auto border-t-2 border-gray-200 p-4 text-center mb-5 text-6xl ">
         About me
       </h1>
@@ -63,7 +63,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-4 bg-green-200 p-5 rounded-2xl mb-3 cursor-pointer hover:bg-green-300">
+            <div className="flex items-center gap-4 bg-green-200 p-5 rounded-2xl mb-3 cursor-pointer hover:">
               <FaBagShopping className="text-2xl" />
               <div className="">
                 <h3 className="text-center font-bold">Web Development</h3>
