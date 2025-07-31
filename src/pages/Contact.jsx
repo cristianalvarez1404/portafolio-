@@ -47,14 +47,14 @@ const Contact = () => {
             </div>
           </a>
           <a
-            href="https://github.com/cristianalvarez1404"
+            href="https://cristianalvarez1404.github.io/portafolio-/"
             target="blank"
             className="cursor-pointer hover:opacity-80 flex items-center bg-cyan-800/80 text-white p-2 rounded-2xl"
           >
             <FaFileCode className="mr-5" />
             <div className="">
               <h3>Web portafolio</h3>
-              <p></p>
+              <p>Portafolio</p>
             </div>
           </a>
           <a
@@ -83,7 +83,10 @@ const Contact = () => {
               <a href="https://github.com/cristianalvarez1404" target="blank">
                 <FaGithub />
               </a>
-              <a href="https://github.com/cristianalvarez1404" target="blank">
+              <a
+                href="https://cristianalvarez1404.github.io/portafolio-/"
+                target="blank"
+              >
                 <FaFileCode />
               </a>
               <a
