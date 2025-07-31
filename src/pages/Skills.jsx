@@ -1,51 +1,69 @@
 import React, { useState } from "react";
 import { FaPython } from "react-icons/fa";
+import { FaReact, FaHtml5 } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
+import { SiDjango } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { SiSpring } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { DiMsqlServer } from "react-icons/di";
+import { SiRedis } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
+import { FaLinux } from "react-icons/fa";
 
 const mySkills = [
   {
     title: "HTML/CSS",
     type: "frontend",
-    icon: <FaPython />,
+    icon: <FaHtml5 />,
   },
   {
     title: "Javascript",
     type: "frontend",
-    icon: <FaPython />,
+    icon: <RiJavascriptFill />,
   },
   {
     title: "React",
     type: "frontend",
-    icon: <FaPython />,
+    icon: <FaReact />,
   },
   {
     title: "Typescript",
     type: "frontend",
-    icon: <FaPython />,
+    icon: <SiTypescript />,
   },
   {
     title: "Tailwind CSS",
     type: "frontend",
-    icon: <FaPython />,
+    icon: <RiTailwindCssFill />,
   },
   {
     title: "Next.js",
     type: "frontend",
-    icon: <FaPython />,
+    icon: <RiNextjsFill />,
   },
   {
     title: "Node.js",
     type: "backend",
-    icon: <FaPython />,
+    icon: <FaNodeJs />,
   },
   {
     title: "Express",
     type: "backend",
-    icon: <FaPython />,
+    icon: <SiExpress />,
   },
   {
     title: "GraphQL",
     type: "backend",
-    icon: <FaPython />,
+    icon: <GrGraphQl />,
   },
   {
     title: "Python",
@@ -55,56 +73,57 @@ const mySkills = [
   {
     title: "Django",
     type: "backend",
-    icon: <FaPython />,
+    icon: <SiDjango />,
   },
   {
     title: "Django-Rest",
     type: "backend",
-    icon: <FaPython />,
+    icon: <SiDjango />,
   },
   {
     title: "JAVA",
     type: "backend",
+    icon: <FaJava />,
   },
   {
     title: "JAVA - spring",
     type: "backend",
-    icon: <FaPython />,
+    icon: <SiSpring />,
   },
   {
     title: "MongoDB",
     type: "database",
-    icon: <FaPython />,
+    icon: <SiMongodb />,
   },
   {
     title: "PostgreSQL",
     type: "database",
-    icon: <FaPython />,
+    icon: <BiLogoPostgresql />,
   },
   {
     title: "SQL-server",
     type: "database",
-    icon: <FaPython />,
+    icon: <DiMsqlServer />,
   },
   {
     title: "Redis",
     type: "database",
-    icon: <FaPython />,
+    icon: <SiRedis />,
   },
   {
     title: "Git/Github",
     type: "tools",
-    icon: <FaPython />,
+    icon: <FaGitAlt />,
   },
   {
     title: "Docker",
     type: "tools",
-    icon: <FaPython />,
+    icon: <FaDocker />,
   },
   {
     title: "Linux",
     type: "tools",
-    icon: <FaPython />,
+    icon: <FaLinux />,
   },
 ];
 
@@ -124,7 +143,7 @@ const Skills = () => {
     <div id="skills">
       <div className="h-screen">
         <h1 className="w-1/2 m-auto border-t-2 border-gray-200 p-4 text-center mb-5 text-6xl ">
-          My skills
+          Mis habilidades
         </h1>
         <div className="w-[90%] flex items-center justify-between m-auto mb-5 text-center bg-gray-400 h-15">
           <h2
