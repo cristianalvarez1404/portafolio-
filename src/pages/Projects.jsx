@@ -107,7 +107,7 @@ const myProjects = [
 const Projects = () => {
   return (
     <div className="" id="project">
-      <h1 className="w-1/2 m-auto text-center border-t-2 border-gray-200 p-4 mb-5 text-6xl ">
+      <h1 className="w-1/2 m-auto text-center border-t-2 border-gray-200 p-4 mb-5 text-4xl lg:text-6xl ">
         Projects
       </h1>
       <div className="w-[90%] m-auto flex flex-wrap gap-8">

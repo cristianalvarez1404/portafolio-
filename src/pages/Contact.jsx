@@ -9,11 +9,11 @@ import { GrInstagram } from "react-icons/gr";
 const Contact = () => {
   return (
     <div className="m-10" id="contact">
-      <h1 className="w-1/2 m-auto border-t-2 border-gray-200 p-4 text-center mb-5 text-6xl ">
+      <h1 className="w-1/2 m-auto border-t-2 border-gray-200 p-4 text-center mb-5 text-xl lg:text-6xl ">
         Contact me
       </h1>
-      <div className="w-[90%] m-auto flex gap-3 items-center">
-        <div className="text-sm rounded-3xl p-3 h-[60vh] flex-1 flex flex-col gap-4 bg-transparent border-2 border-gray-400 text-gray-500">
+      <div className="w-[90%] m-auto flex flex-col lg:flex-row gap-3 items-center">
+        <div className="text-sm rounded-3xl p-3 h-[60vh] flex-1 w-full flex flex-col gap-4 bg-transparent border-2 border-gray-400 text-gray-500">
           <h2 className="text-center font-bold text-2xl m-3">
             Información de contacto
           </h2>
