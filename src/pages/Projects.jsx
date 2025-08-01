@@ -148,7 +148,8 @@ const Projects = () => {
       </div>
       <div className="flex items-center justify-center mt-5">
         <a
-          href="/"
+          href="https://github.com/cristianalvarez1404?tab=repositories"
+          target="blank"
           className="w-auto p-2 rounded-2xl text-gray-700 text-center bg-green-300 cursor-pointer"
         >
           Check My Github
